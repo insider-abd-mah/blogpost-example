@@ -33,7 +33,7 @@ var (
 	basePath   = filepath.Dir(b)
 )
 
-const ContainerName = "mysql_test"
+const ContainerName = "mysql_fake"
 
 // StartContainer ..
 func StartContainer(t *testing.T) *Container {
